@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "Tittle": "Tic-Tac-Toe Game",
+        "lan" : "JavaScript",
+        "code": "https://github.com/Bharat346/Tic-Tac-Toe-game",
+        "project_view": "https://bharat346.github.io/Tic-Tac-Toe-game/",
+        "img": "https://img.freepik.com/premium-vector/tic-tac-toe-game-linear-outline-icon-colour-neon-style-brick-wall-background-light-icon_549897-1770.jpg",
+        "Description": "This JavaScript Tic Tac Toe game is created for entertainment purposes. The developer holds no responsibility for the accuracy or outcomes. Use at your own discretion. Enjoy the game!"
+      },
+      {
+        "id": 1,
+        "Tittle": "QUIZ-GAME",
+        "lan" : "C",
+        "code": "https://drive.google.com/file/d/1Z1yAEc1oIhlVy7uurWAzaB55g8KA_63Y/view?usp=drive_link",
+        "project_view": "https://1drv.ms/p/s!Ar0-4m82ZF8Q3Vln3KZoy8tAs8-F?e=Ajq5ib",
+        "img": "https://i.pinimg.com/736x/a6/15/2c/a6152c294382a7f34c5312be5920e3b5.jpg",
+        "Description": "This quiz game project, created with the C programming language, is intended for educational and recreational purposes only. Users are encouraged to use the project responsibly and ethically."
+      },
+      {
+        "id": 2,
+        "Tittle": "Explore-Number-game",
+        "lan" : "JavaScript",
+        "code": "https://github.com/Bharat346/Explore_Number_game",
+        "project_view": "https://bharat346.github.io/Explore_Number_game/",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVGZhB2wO1Y43n2iCA3AkjGVHUIwEBaXS6uw&usqp=CAU",
+        "Description": "This JavaScript Explore-Number-game is created for entertainment purposes. The developer holds no responsibility for the accuracy or outcomes. Use at your own discretion. Enjoy the game!"
+      },
+      {
+        "id": 3,
+        "Tittle": "RANDOM JOKES GENERATOR",
+        "lan" : "JavaScript",
+        "code": "https://github.com/Bharat346/Funny_Jokes",
+        "project_view": "https://bharat346.github.io/Funny_Jokes/",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSykywONgn2eSPkPEs4zHKYcvyBkGS5vf77Sw&usqp=CAU",
+        "Description": "🌐 Welcome to the Random Jokes Generator – Where Laughter Knows No Boundaries! 🌐 <br> <br>Our Random Jokes Generator, powered by JavaScript, brings you a delightful blend of humor in both Hindi and English."
+      },
+      {
+        "id": 4,
+        "Tittle": "Joke-Bot",
+        "lan" : "python",
+        "code": "https://drive.google.com/file/d/1Z7e3AR80oInuww4D5vxUeLDyAQk8oVOu/view?usp=drivesdk",
+        "project_view": "https://t.me/BhkJokes_Bot",
+        "img": "https://micgadget.com/wp-content/uploads/2023/12/02b7e4ad-e26d-4903-b9f4-c694e3e9a080.jpg",
+        "Description": "🤖 Welcome to the Jokes Bot! Your Daily Dose of Laughter! 🤖<br>Get ready to tickle your funny bone with our Python-powered Jokes Telegram Bot. Whether you prefer the humor of Hindi or the wit of English, we've got a joke for everyone! Our bot is your go-to source for light-hearted moments, delivering a daily dose of laughter to brighten your day."
+      },
+      {
+        "id": 5,
+        "Tittle": "DOCS_CONVERTER_BOT",
+        "lan" : "python",
+        "code": "https://drive.google.com/file/d/1AB_dNFNv1_48yugGcWDGIh4o2bkaigi0/view?usp=drivesdk",
+        "project_view": "https://t.me/Files_Converter_py_bot",
+        "img": "https://lh3.googleusercontent.com/-WbZ4Wbdt9cI/Ya42uc6H-iI/AAAAAAAAHu4/n14SIeoEO9EP6HYkjxFoQ_A6eCs1hQP7ACNcBGAsYHQ/s1600/1638807221083217-0.png",
+        "Description": "Welcome to our Document Converter Telegram Bot – This Python-powered bot is designed to make your document conversion tasks a breeze, allowing you to switch between various formats effortlessly. Whether you need to convert PDFs to DOCX, DOCX to PDF, CSV to XLSX, XLSX to JSON, and more, our bot has got you covered."
+      },
+      {
+        "id": 6,
+        "Tittle": "Calculator",
+        "lan" : "JavaScript",
+        "code": "https://github.com/Bharat346/Calculator",
+        "project_view": "https://bharat346.github.io/Calculator/",
+        "img": "https://static.frontendmasters.com/assets/courses/2019-09-07-calculator-javascript/thumb.webp",
+        "Description": "The JavaScript Calculator project is a simple web-based calculator that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division."
+      },
+      {
+        "id": 7,
+        "Tittle": "India-cart",
+        "lan" : "JavaScript",
+        "code": "#",
+        "project_view": "#",
+        "img": "https://uploads-ssl.webflow.com/614d610a3dd0725153e51ded/6222149bfbdb5b0645ae4c0e_eCommerce-Website-Components-photo.jpeg",
+        "Description": "🛍️ Welcome to India-cart powered by JS, your one-stop destination for all your online shopping needs! Dive into a world of endless possibilities as you explore our vast collection of products, ranging from fashion 👗 and electronics 📱 to home decor 🏡 and groceries 🛒, all inspired by the rich culture and diversity of India.  👍 Join Us and open the doors"
+      }
+]

@@ -1,0 +1,83 @@
+.projects {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-around;
+}
+
+.custom-card {
+    background-color: #fff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px; /* Adjust the width of each card to fit three cards in a row with spacing */
+    margin-bottom: 20px; /* Add margin between cards */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.custom-card:hover {
+    transform: translateY(-25px);
+}
+
+.custom-card-image img {
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+    object-fit: cover;
+}
+
+.custom-card-content {
+    padding: 20px;
+}
+
+.custom-card-content p {
+    font-family:'Teko',a;
+}
+
+.custom-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.custom-card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.custom-card-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 5px ;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-card-btn:hover {
+    background-color: #0056b3;
+}
+
+.category{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.category div{
+    font-size: 1.3rem;
+    color: rgb(199, 9, 236);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.all{
+    border-bottom: 5px solid rgb(17, 0, 255);
+    border-radius: 5px;
+}
