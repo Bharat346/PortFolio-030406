@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Swiper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+    }
+    .swiper-container {
+      background-color: #343336;
+      width: 100%;
+      height: 100vh; 
+      /* margin-top: 10px; */
+    }
+    .swiper-slide {
+      width: 250px;
+      height: 450px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      /* background-image: url("me.jpg"); */
+      background-position: center;
+      background-size: cover;
+    }
+    .swiper-slide img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 8px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      left: 50%;
+      bottom: 4%;
+      transform: translate(-50%,0%);
+      z-index: 10;
+    }
+    .card-content {
+    padding: 20px;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.card-content:hover {
+    background-color: #2716c38c; /* Change background color on hover */
+}
+
+.card-content h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card-content p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url('https://i.ibb.co/R4HmTDB/Whats-App-Image-2024-02-09-at-20-47-20-5e313711.jpg'); width: 250px;height: 450px;">
+        <div class="card-content">
+            <h2>Enjoying Every Moment</h2>
+            <p>Near our Hostel's Tennis Court</p>
+        </div>
+    </div>
+
+    <div class="swiper-slide" style=" width: 250px;height: 450px;background-image: url('https://i.ibb.co/bXFrjDq/Whats-App-Image-2024-02-09-at-20-47-19-febdb0dd.jpg');">
+        <div class="card-content">
+            <h2>Gaining Vitamin-D</h2>
+            <p>In OAT(open air Theator)</p>
+        </div>
+    </div>
+    
+    <div class="swiper-slide" style="background-image: url('https://i.ibb.co/VBj5jZX/Whats-App-Image-2024-02-09-at-21-10-23-a2c9cad0.jpg'); width: 250px;height: 450px;">
+        <div class="card-content">
+            <h2>Memorable Moments</h2>
+            <p>A day with big Brother</p>
+        </div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+  <div class="button-container">
+    <button style="font-size: 20px;" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+    <button style="font-size: 20px;" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow', // Add coverflow effect
+    slidesPerView: 'auto',
+    spaceBetween: 40,
+    centeredSlides: true,
+    loop: true, // Enable infinite loop
+    coverflowEffect: {
+      rotate: 40, // Set rotate value
+      depth: 300, // Set depth value
+      modifier: 1,
+      slideShadows: true,
+    },
+    speed : 1000,
+    autoplay: {
+      delay: 2000, // Auto start delay in milliseconds
+      disableOnInteraction: false, // Disable autoplay on user interaction
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  // Previous button event listener
+  document.getElementById('prevBtn').addEventListener('click', function() {
+    swiper.slidePrev(); // Slide to the previous slide with animation
+  });
+
+  // Next button event listener
+  document.getElementById('nextBtn').addEventListener('click', function() {
+    swiper.slideNext(); // Slide to the next slide with animation
+  });
+</script>
+
+</body>
+</html>

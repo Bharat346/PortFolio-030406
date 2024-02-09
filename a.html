@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated 3D Card Slider</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100vh; /* Full height of the viewport */
+    }
+    .swiper-slide {
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Full height of the viewport */
+      transition: transform 0.3s ease; /* Add smooth transition */
+    }
+    .slider-buttons {
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      z-index: 1000; /* Ensure buttons appear on top of other content */
+    }
+    .slider-buttons button {
+      padding: 10px;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      font-size: 24px;
+      color: #fff;
+    }
+    #prevBtn {
+      margin-left: 10px;
+    }
+    #nextBtn {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><iframe width="706" height="397" src="https://www.youtube.com/embed/nJTsbZojero" title="Animated Website Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <div class="swiper-slide" style="background-image:url('me.jpg')"></div>
+    <div class="swiper-slide" style="background-image:url('me.jpg')"></div>
+    <!-- Add more slides as needed -->
+  </div>
+  <div class="slider-buttons">
+    <button style="font-size: 30px;" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+    <button style="font-size: 30px;" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    speed: 1500, // Increase animation duration to 1.5 seconds (1500 milliseconds)
+  });
+
+  // Event listeners for previous and next buttons
+  document.getElementById('prevBtn').addEventListener('click', function() {
+    swiper.slidePrev();
+  });
+
+  document.getElementById('nextBtn').addEventListener('click', function() {
+    swiper.slideNext();
+  });
+</script>
+
+</body>
+</html>
