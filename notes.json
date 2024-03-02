@@ -1,0 +1,34 @@
+[
+    {
+        "id" : "0",
+        "class" : "jee",
+        "title" : "JEE Physics Notes",
+        "description" : "Access Notes Here",
+        "img" : "https://news.gyaanarth.com/wp-content/uploads/2023/12/physics-round-blue-science-and-education-vector-21096677.jpg",
+        "link" : "https://drive.google.com/drive/folders/1-18H2l5HGJWjxsoUjLIEpaNKIi01OkNY"
+    },
+    {
+        "id" : "0",
+        "class" : "jee",
+        "title" : "JEE Chemistry Notes",
+        "description" : "Access Notes Here",
+        "img" : "https://cdn5.vectorstock.com/i/1000x1000/61/89/chemistry-colorful-round-vector-12906189.jpg",
+        "link" : "https://drive.google.com/drive/folders/1-5F2-70kBfCKhpp8qhSe0BUWc8QJJorc"
+    },
+    {
+        "id" : "0",
+        "class" : "jee",
+        "title" : "JEE Maths Notes",
+        "description" : "Access Notes Here",
+        "img" : "https://salaieasymaths.com/wp-content/uploads/2022/10/Blog-Image-28-1.jpg",
+        "link" : "https://drive.google.com/drive/folders/1-D4rutcquSJvztVkDv7e6Ur7xNWf7Xsc"
+    },
+    {
+        "id" : "0",
+        "class" : "CSE",
+        "title" : "DSA",
+        "description" : "Access Notes Here (coming soon)",
+        "img" : "https://static.vecteezy.com/system/resources/previews/016/090/222/original/data-structures-and-algorithms-concept-icon-vector.jpg",
+        "link" : "#"
+    }
+]
